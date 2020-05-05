@@ -54,7 +54,7 @@
                     <div class="card-body">
                         <div class="d-flex">
                             <div class="text-white">
-                                <h2 class="mb-0 number-font">INDONESIA</h2>
+                                <p class="mb-0 number-font">INDONESIA</p>
                                 @foreach ($indonesia as $item)
                                 <p class="text-white mb-0"><b>{{ $item['positif'] }}</b> POSITIF, <b>{{ $item['sembuh'] }}</b> <br>SEMBUH, <b>{{ $item['meninggal'] }}</b> MENINGGAL</p>
                                 @endforeach

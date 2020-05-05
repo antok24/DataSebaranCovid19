@@ -1,7 +1,7 @@
         <div class="row">
             <div class="col-md-12 mt-3">
                 <div class="text-center">
-                    <h3>Data Sebaran Virus Corona Indonesia & Dunia <br> <h5>Developt By Antok@tanpaspasi.com</h5></h3>
+                    <h3>Data Sebaran Virus Corona Indonesia & Dunia <br> <h5 style="color: blueviolet">Develop by Antok@tanpaspasi.com</h5></h3>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
                             <div class="text-white">
                                 <p class="mb-0 number-font">INDONESIA</p>
                                 @foreach ($indonesia as $item)
-                                <p class="text-white mb-0" style="font-size: 14px"><b>{{ $item['positif'] }}</b> POSITIF, <b>{{ $item['sembuh'] }}</b> <br>SEMBUH, <b>{{ $item['meninggal'] }}</b> MENINGGAL</p>
+                                <p class="mb-0" style="font-size: 14px; color:black"><b>{{ $item['positif'] }}</b> POSITIF, <b>{{ $item['sembuh'] }}</b> <br>SEMBUH, <b>{{ $item['meninggal'] }}</b> MENINGGAL</p>
                                 @endforeach
                             </div>
                             
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div><!-- COL END -->
-            <div class="col text-center"><p>Sumber data : Kementerian Kesehatan &amp; JHU. Update terakhir : {{ date('j F Y', strtotime($tgl)) }} | {{ $waktu }} WIB</p></div>
+            <div class="col text-center mt-3"><p>Sumber data : Kementerian Kesehatan &amp; JHU. Update terakhir : {{ date('j F Y', strtotime($tgl)) }} | {{ $waktu }} WIB</p></div>
         </div>
 
         <div class="row">

@@ -56,7 +56,7 @@
                             <div class="text-white">
                                 <p class="mb-0 number-font">INDONESIA</p>
                                 @foreach ($indonesia as $item)
-                                <p class="text-white mb-0"><b>{{ $item['positif'] }}</b> POSITIF, <b>{{ $item['sembuh'] }}</b> <br>SEMBUH, <b>{{ $item['meninggal'] }}</b> MENINGGAL</p>
+                                <p class="text-white mb-0" style="font-size: 14px"><b>{{ $item['positif'] }}</b> POSITIF, <b>{{ $item['sembuh'] }}</b> <br>SEMBUH, <b>{{ $item['meninggal'] }}</b> MENINGGAL</p>
                                 @endforeach
                             </div>
                             
